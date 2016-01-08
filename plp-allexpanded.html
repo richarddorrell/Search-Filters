@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" class="js svg"><!--<![endif]-->
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta charset="utf-8">   
+        <meta name="viewport" content="width=device-width, initial-scale=1">	
+        <meta name="robots" content="noindex,nofollow">		
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	
+        <meta http-equiv="Set-Cookie" content="LastBrowseCookie=http%3A%2F%2Fwww.dxax2wcsit00101.argos.co.uk%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FcatalogId%3D24551%26version%3Dbeta%26langId%3D110%26partNumber%3D9806061%26storeId%3D10151; path=/">
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.argos.co.uk/m/static/Product/partNumber/9806061.htm">
+        <link rel="icon" href="http://www.argos.co.uk/wcsstore/argos/v2/public/img/favicon.ico" type="image/x-icon">
+        
+        <link rel="stylesheet" href="css/argos-style.css">
+        <link rel="stylesheet" href="css/argos-style-theme.css">   
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/swiper.css">     
+        <link rel="stylesheet" href="http://www.argos.co.uk/wcsstore/argos/en_GB/siteAssets/css/home.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+        <script type="text/javascript" src="js/overlay.js" async></script>    
+        <script type="text/javascript" src="js/argos-style.js" async></script>
+
+        <title>Argos Vision Prototype - PLP</title>
+    </head>
+	
+	<body>
+        
+        <div class="refinenav filters-out col-xs-12">
+            <a style="float: left;" id="hidefilters">Done</a>
+            <a style="float: right;" id="reset">Reset</a> 
+            <span style="letter-spacing: 2px; text-align: center; display: block;">100 of 190 products</span>
+            <div class="bubbles">
+                <a class="filter-bubble">Filter <span></span></a>
+                <a class="filter-bubble">Filter <span></span></a>
+                <a class="filter-bubble">Filter <span></span></a>
+            </div>
+        </div>
+        <div class="filters-overlay">
+            <div class="filters-inner filters-out">
+                <div class="accordion" style="background-color: #F5F5F5;">
+
+                    <div class="accordion-section">
+                        <span class="section-title">Price</span>
+                        <div id="accordion-1" class="accordion-section-content col-xs-12" style="display: block;" style="display: block;">
+                            <div style="padding: 15px 0;" class="row">
+                                <div class="col-xs-6">
+                                    From:<br/><input type="text" class="fullwidth"/>
+                                </div>
+                                <div class="col-xs-6">
+                                    To:<br/><input type="text" class="fullwidth"/>
+                                </div> 
+                                <div class="col-xs-12">
+                                    <form>
+                                        <input type="radio" name="colour" value="1">
+                                        <label for="check1">Under &pound;10</label>
+                                <span class="amount">(8)</span><br/>
+                                        <input type="radio" name="colour" value="2">
+                                        <label for="check1">Under &pound;25</label>
+                                <span class="amount">(23)</span><br/>
+                                        <input type="radio" name="colour" value="3">
+                                        <label for="check1">Under &pound;50</label>
+                                <span class="amount">(78)</span><br/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                    <div class="accordion-section">
+                        <span class="section-title">Colour</span>
+                        <div id="accordion-4" class="accordion-section-content col-xs-12" style="display: block;" style="display: block;">
+                            <form>
+                                <input type="checkbox" name="colour" value="1">
+                                <label for="check1"><span class="swatch"><span class="red"></span></span>Red</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="2">
+                                <label for="check1"><span class="swatch"><span class="steel"></span></span>Stainless Steel</label>
+                                <span class="amount">(79)</span><br/>
+                                <input type="checkbox" name="colour" value="3">
+                                <label for="check1"><span class="swatch"><span class="cream"></span></span>Cream</label>
+                                <span class="amount">(2)</span><br/>
+                                <input type="checkbox" name="colour" value="4">
+                                <label for="check1"><span class="swatch"><span class="white"></span></span>White</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="5">
+                                <label for="check1"><span class="swatch"><span class="purple"></span></span>Purple</label>
+                                <span class="amount">(1)</span><br/>
+                                <input type="checkbox" name="colour" value="6">
+                                <label for="check1"><span class="swatch"><span class="blue"></span></span>Blue</label>
+                                <span class="amount">(2)</span><br/>
+                            </form>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                    <div class="accordion-section">
+                        <span class="section-title">Brand</span>
+                        <div id="accordion-3" class="accordion-section-content col-xs-12" style="display: block;" style="display: block;">
+                            <form>
+                                <input type="checkbox" name="colour" value="1">
+                                <label for="check1">Morphy Richards</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="2">
+                                <label for="check1">Russell Hobbs</label>
+                                <span class="amount">(79)</span><br/>
+                                <input type="checkbox" name="colour" value="3">
+                                <label for="check1">Breville</label>
+                                <span class="amount">(2)</span><br/>
+                                <input type="checkbox" name="colour" value="4">
+                                <label for="check1">Cookworks</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="5">
+                                <label for="check1">Kenwood</label>
+                                <span class="amount">(4)</span><br/>
+                            </form>
+                            <a class="btn btn-default fullwidth showall" style="float: none; margin-bottom: 15px;">See more brands</a>
+                            <form style="display: none;">
+                                <input type="checkbox" name="colour" value="1">
+                                <label for="check1">The most popular brand (60)</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="2">
+                                <label for="check1">The 2nd most popular brand (43)</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="3">
+                                <label for="check1">A brand that's up=and-coming (43)</label>
+                                <span class="amount">(3)</span><br/>
+                            </form>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                    
+                    <div class="accordion-section">
+                        <span class="section-title">Type</span>
+                        <div id="accordion-5" class="accordion-section-content col-xs-12" style="display: block;" style="display: block;">
+                            <form>
+                                <input type="checkbox" name="colour" value="1">
+                                <label for="check1">Kettles</label>
+                                <span class="amount">(123)</span><br/>
+                                <input type="checkbox" name="colour" value="2">
+                                <label for="check1">Metal Kettles</label>
+                                <span class="amount">(79)</span><br/>
+                                <input type="checkbox" name="colour" value="3">
+                                <label for="check1">Plastic Kettles</label>
+                                <span class="amount">(2)</span><br/>
+                                <input type="checkbox" name="colour" value="4">
+                                <label for="check1">Filter Kettles</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="5">
+                                <label for="check1">Glass Kettles</label>
+                                <span class="amount">(4)</span><br/>
+                            </form>
+                            <a class="btn btn-default fullwidth showall" style="float: none; margin-bottom: 15px;">See more types</a>
+                            <form style="display: none;">
+                                <input type="checkbox" name="colour" value="1">
+                                <label for="check1">The most popular brand (60)</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="2">
+                                <label for="check1">The 2nd most popular brand (43)</label>
+                                <span class="amount">(3)</span><br/>
+                                <input type="checkbox" name="colour" value="3">
+                                <label for="check1">A brand that's up=and-coming (43)</label>
+                                <span class="amount">(3)</span><br/>
+                            </form>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                    <div class="accordion-section">
+                        <span class="section-title">Capacity (litres)</span>
+                        <div id="accordion-6" class="accordion-section-content col-xs-12" style="display: block;" style="display: block;">
+                            <form>
+                                <input type="checkbox" name="colour" value="Blue">
+                                <label for="check1">0.5 lt, 2 cups</label>
+                                <span class="amount">(123)</span><br/>
+                                <input type="checkbox" name="colour" value="Red">
+                                <label for="check1">0.6 - 1 lt, 4 cups</label>
+                                <span class="amount">(79)</span><br/>
+                                <input type="checkbox" name="colour" value="Green">
+                                <label for="check1">1 - 2 lt, 6 to 8 cups</label>
+                                <span class="amount">(2)</span><br/>
+                                <input type="checkbox" name="colour" value="Yellow">
+                                <label for="check1">2 - 3 lt, 9 to 10 cups</label>
+                                <span class="amount">(3)</span><br/>
+                            </form>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                   
+                </div>
+            </div>
+        </div>
+        
+        <header class="mainheader">
+            <ul class="headerbar">
+              <li class="header_item logo"><a></a></li>
+              <li class="header_item stores"><a>Stores</a></li>
+              <li class="header_item search"><a>Search</a></li>
+              <li class="header_item trolley"><a>Trolley</a></li>
+            </ul>
+        </header>
+        
+        <div class="container main-container">
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+                    <div class="row plp-top">
+                        <span class="col-xs-12">Fitness technology</span>
+                        <span class="col-xs-12">Body toning belts &amp; muscle toning</span>
+                        <span class="col-xs-12">190 products</span>
+                    </div>
+
+                    <div class="row filters">
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="dropdown" style="width: 100%;">
+                                <select style="width: 100%">
+                                    <option value="dropdown">50 per page</option>
+                                    <option value="option1">25 per page</option>
+                                    <option value="option2">10 per page</option>
+                                    <option value="option3">Show all</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 hidden-sm hidden-md hidden-lg">                            <a class="btn touch field fullwidth" id="showfilters" style="text-align: left; font-weight: normal; font-size: 18px; color: #EE3124;">Filters<span></span></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <div class="dropdown" style="width: 100%">
+                                <select style="width: 100%">
+                                    <option value="dropdown">Relevancy</option>
+                                    <option value="option1">Price: Low to High</option>
+                                    <option value="option2">Price: High to Low</option>
+                                    <option value="option3">Promotions</option>
+                                    <option value="option4">Customer Ratings</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-12" style="display: flex;">
+                            <div class="hidden-xs" style="display: flex;">
+                                <a class="left touch field"></a>
+                                <div style="height: 48px; overflow: hidden;">
+                                    <a class="field touch pagination">1</a>
+                                    <a class="field touch pagination">2</a>
+                                    <a class="field touch pagination">3</a>
+                                    <a class="field touch pagination">4</a>
+                                    <a class="field touch pagination">5</a>
+                                    <a class="field touch pagination">6</a>
+                                    <a class="field touch pagination">7</a>
+                                    <a class="field touch pagination">8</a>
+                                    <a class="field touch pagination">9</a>
+                                    <a class="field touch pagination">10</a>
+                                    <a class="field touch pagination">11</a>
+                                    <a class="field touch pagination">12</a>
+                                </div>
+                                <a class="right touch field"></a>
+                            </div>
+                            <a class="btn btn-default view viewflip field touch hidden-xs"><p><span></span><span></span><span></span><span></span></p></a>
+                        </div>
+                    </div>   
+            
+            <div class="bubbles">
+                <a class="filter-bubble">Filter <span></span></a>
+                <a class="filter-bubble">Filter <span></span></a>
+                <a class="filter-bubble">Filter <span></span></a>
+            </div>
+                    
+                <div class="row" style="margin-top: 15px;">
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row showpdp cardify" href="pdp.html">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg"></div>
+                                <div class="flags flagscolumns" style="display: block;">
+                                    <span class="flagnew">NEW</span>
+                                    <span class="flagonline">ONLINE EXCLUSIVE</span>
+                                </div>
+                                <div class="colours">
+                                    <div class="swatch green"><span>Green</span></div>
+                                    <div class="swatch red"><span>Red</span></div>
+                                    <div class="swatch purple"><span>Purple</span></div>
+                                    <div class="swatch blue"><span>Blue</span></div>
+                                    <div class="swatch yellow"><span>Yellow</span></div>
+                                    <span>+8</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <div class="flags" style="display: none;">
+                                        <span class="flagnew">NEW</span>
+                                        <span class="flagonline">ONLINE EXCLUSIVE</span>
+                                    </div>
+                                    <h2>ColourMatch leather effect tub sofa</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;148.99</span>
+                                    <span class="wasprice">was &pound;199.99</span><br/>
+                                    <span class="saving">save &pound;51.00</span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row cardify">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg tabitha"></div>
+                                <div class="colours"></div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <h2>Tabitha Regular Fabric Sofa</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;215.99</span>
+                                    <span class="wasprice">was &pound;539.99</span><br/>
+                                    <span class="saving">Less than Half Price</span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row cardify">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg aston"></div>
+                                <div class="flags flagscolumns" style="display: block;">
+                                    <span class="flagnew">NEW</span>
+                                </div>
+                                <div class="colours">
+                                    <div class="swatch green"><span>Green</span></div>
+                                    <div class="swatch red"><span>Red</span></div>
+                                    <div class="swatch purple"><span>Purple</span></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <div class="flags" style="display: none;">
+                                        <span class="flagnew">NEW</span>
+                                    </div>
+                                    <h2>Aston Large Leather Sofa</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;349.99</span>
+                                    <span class="wasprice">was &pound;874.99</span><br/>
+                                    <span class="saving">Less than Half Price</span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row cardify">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg eton"></div>
+                                <div class="flags flagscolumns" style="display: block;">
+                                    <span class="flagonline">ONLINE EXCLUSIVE</span>
+                                </div>
+                                <div class="colours">
+                                    <div class="swatch green"><span>Green</span></div>
+                                    <div class="swatch red"><span>Red</span></div>
+                                    <div class="swatch purple"><span>Purple</span></div>
+                                    <div class="swatch blue"><span>Blue</span></div>
+                                    <div class="swatch yellow"><span>Yellow</span></div>
+                                    <span>+5</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <div class="flags" style="display: none;">
+                                        <span class="flagonline">ONLINE EXCLUSIVE</span>
+                                    </div>
+                                    <h2>Heart of House Eton Regular Fabric Sofa</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;448.99</span>
+                                    <span class="wasprice"></span><br/>
+                                    <span class="saving"></span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row cardify">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg bradley"></div>
+                                <div class="colours">
+                                    <div class="swatch green"><span>Green</span></div>
+                                    <div class="swatch red"><span>Red</span></div>
+                                    <div class="swatch purple"><span>Purple</span></div>
+                                    <div class="swatch blue"><span>Blue</span></div>
+                                    <div class="swatch yellow"><span>Yellow</span></div>
+                                    <span>+5</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <h2>Bradley Regular Fabric Recliner Sofa</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;378.99</span>
+                                    <span class="wasprice"></span><br/>
+                                    <span class="saving"></span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="product col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <a class="row cardify">
+                            <div class="col-xs-4 col-sm-12 prodleft">
+                                <div class="prodimg hygena"></div>
+                                <div class="colours">
+                                    <div class="swatch green"><span>Green</span></div>
+                                    <div class="swatch red"><span>Red</span></div>
+                                    <div class="swatch purple"><span>Purple</span></div>
+                                    <div class="swatch blue"><span>Blue</span></div>
+                                    <div class="swatch yellow"><span>Yellow</span></div>
+                                    <span>+5</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-12 prodright">
+                                <div>
+                                    <h2>Hygena Seattle Left Hand Sofa Bed Corner Group</h2>
+                                    <div class="reviews">
+                                        <span>(0)</span> 
+                                    </div>
+                                    <span class="price">&pound;448.99</span>
+                                    <span class="wasprice">was &pound;499.99</span><br/>
+                                    <span class="saving">save &pound;51.00</span>
+                                </div>
+                            </div>
+                            <div class="hidden-xs hidden-sm specs" style="display: none;">
+                                <ul>
+                                    <li>frame material</li>
+                                    <li>covering material</li>
+                                    <li>dimensions</li>
+                                    <li>seats</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="row filterstab hidden-xs" style="margin-top: 15px;">
+                    <div class="col-sm-6 hidden-xs">
+                        <div class="dropdown" style="width: 100%;">
+                            <select style="width: 100%">
+                                <option value="dropdown">50 per page</option>
+                                <option value="option1">25 per page</option>
+                                <option value="option2">10 per page</option>
+                                <option value="option3">Show all</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 hidden-sm hidden-md hidden-lg">                            <a class="btn btn-default touch field fullwidth" id="showfilters">Refine</a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="dropdown" style="width: 100%">
+                            <select style="width: 100%">
+                                <option value="dropdown">Relevancy</option>
+                                <option value="option1">Price: Low to High</option>
+                                <option value="option2">Price: High to Low</option>
+                                <option value="option3">Promotions</option>
+                                <option value="option4">Customer Ratings</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-sm-12" style="display: flex;">
+                        <div class="hidden-xs" style="display: flex;">
+                            <a class="left touch field"></a>
+                            <div style="height: 48px; overflow: hidden;">
+                                <a class="field touch pagination">1</a>
+                                <a class="field touch pagination">2</a>
+                                <a class="field touch pagination">3</a>
+                                <a class="field touch pagination">4</a>
+                                <a class="field touch pagination">5</a>
+                                <a class="field touch pagination">6</a>
+                                <a class="field touch pagination">7</a>
+                                <a class="field touch pagination">8</a>
+                                <a class="field touch pagination">9</a>
+                                <a class="field touch pagination">10</a>
+                                <a class="field touch pagination">11</a>
+                                <a class="field touch pagination">12</a>
+                            </div>
+                            <a class="right touch field"></a>
+                        </div>
+                        <a class="btn btn-default view viewflip field touch"><p><span></span><span></span><span></span><span></span></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <footer></footer>      
+        
+        
+        
+    </body>
+</html>
